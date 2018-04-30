@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using GuestbookGip.Data;
 using GuestbookGip.Models;
 using GuestbookGip.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace GuestbookGip
 {
@@ -48,6 +50,13 @@ namespace GuestbookGip
                 googleOptions.ClientSecret = "ICvxR81Dy9Pdwsk1yok-5Ao3";
             });
 
+            services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                                 .RequireAuthenticatedUser()
+                                 .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

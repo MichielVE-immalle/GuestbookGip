@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuestbookGip.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GuestbookGip.Controllers
 {
+
+    [Authorize]
     public class CommentsController : Controller
     {
         private readonly GuestbookGipContext _context;
