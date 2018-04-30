@@ -37,6 +37,9 @@ namespace GuestbookGip
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+
+            services.AddDbContext<GuestbookGipContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("GuestbookGipContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
