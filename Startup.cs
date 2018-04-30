@@ -40,6 +40,14 @@ namespace GuestbookGip
 
             services.AddDbContext<GuestbookGipContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("GuestbookGipContext")));
+
+            // from https://console.developers.google.com/projectselector/apis/library
+            services.AddAuthentication().AddGoogle(googleOptions =>
+            {
+                googleOptions.ClientId = "485173234171-qkn18dkcjfbufa2j4n6oqbmcpn4aci2j.apps.googleusercontent.com";
+                googleOptions.ClientSecret = "ICvxR81Dy9Pdwsk1yok-5Ao3";
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
