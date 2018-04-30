@@ -1,0 +1,12 @@
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\bin\Debug\netcoreapp2.0\GuestbookGip.deps.json
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\bin\Debug\netcoreapp2.0\GuestbookGip.runtimeconfig.json
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\bin\Debug\netcoreapp2.0\GuestbookGip.runtimeconfig.dev.json
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\bin\Debug\netcoreapp2.0\GuestbookGip.dll
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\bin\Debug\netcoreapp2.0\GuestbookGip.pdb
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.csprojResolveAssemblyReference.cache
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.csproj.CoreCompileInputs.cache
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.AssemblyInfoInputs.cache
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.AssemblyInfo.cs
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.dll
+c:\users\michi\source\repos\GuestbookGip\GuestbookGip\obj\Debug\netcoreapp2.0\GuestbookGip.pdb
